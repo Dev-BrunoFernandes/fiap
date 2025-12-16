@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,12 +55,11 @@
               "RelativeToolTip": "Data\\DatabaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T20:19:50.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T20:19:50.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Controllers\\ClientController.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T01:33:42.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T01:33:42.07Z"
             }
           ]
         }
