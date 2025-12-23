@@ -1,7 +1,10 @@
+/* == == == Variables == == == */
 :root {
     --color-1: #fff;
     --color-2: #060b33;
 }
+
+/* == == == Global == == == */
 
 * {
     box-sizing: border-box;
@@ -15,4 +18,215 @@ ul {list-style: none;}
 a {
     text-decoration: none;
     color: var(--color-2);
+}
+
+/* == == == Header == == == */
+header {
+    margin-bottom: 0;
+    padding: 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 6vmin;
+}
+
+#header_menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+#header_menu a {
+    color: var(--color-2);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* == == == Main == == == */
+
+#banner {
+    color: var(--color-1);
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner h2 {
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+#banner h3 {font-size: 2rem;}
+
+#banner .btn {
+    border: 1px solid var(--color-2);
+    border-radius: 4px;
+    background: var(--color-2);
+    color: var(--color-1);
+    margin-top: 20px;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    transition: .6s;
+}
+
+#banner .btn:hover {
+    background: transparent;
+    color: var(--color-2);
+}
+
+/* == == == Information == == == */
+.information {
+    background: var(--color-2);
+    color: var(--color-1);
+    padding: 100px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h3 {
+    margin-bottom: 35px;
+    font-size: 2rem;
+}
+
+.information p {
+    margin-bottom: 35px;
+    max-width: 800px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.information hr {
+    border: none;
+    background: var(--color-1);
+    margin-bottom: 70px;
+    width: 200px;
+    height: 2px;
+}
+
+.information .item {
+    width: 100%;
+    display: flex;
+}
+
+.information .item li {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.information .item li i {
+    color: var(--color-1);
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.information .item li h4 {
+    color: var(--color-1);
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.information .item li p {
+    margin-bottom: 35px;
+    font-size: 2rem;
+}
+
+/* == == == Register == == == */
+.register {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register h3 {
+    margin-bottom: 35px;
+    font-size: 2rem;
+}
+
+.register p {
+    margin-bottom: 35px;
+    max-width: 800px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.register form {
+    max-width: 800px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.register form input {
+    border: 1px solid var(--color-2);
+    border-radius: 4px;
+    margin-right: 15px;
+    padding: 15px;
+    width: 300px;
+}
+
+.register form button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    background: var(--color-2);
+    color: var(--color-1);
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+/* == == == Footer == == == */
+footer {
+    background: var(--color-2);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+footer ul li {margin-right: 10px;}
+footer ul li:last-child {margin-right: 0;}
+
+footer ul li a {
+    color: var(--color-1);
+    font-size: 2.5rem;
+}
+
+footer p {
+    color: var(--color-1);
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    .informacoes .item {flex-direction: column;}
+}
+
+@media (max-width: 700px) {
+    header {flex-direction: column;}
+    header img {margin-bottom: 15px;}
+    .banner {margin-top: 50px;}
+    .banner h1 {font-size: 2.3rem;}
+    .banner h3 {font-size: 1.3rem;}
+    .cadastro input {margin-bottom: 15px;}
 }
