@@ -1,0 +1,67 @@
+/* == == == Variables == == == */
+:root {
+    --bg-blue-1: #11429e;
+    --bg-blue-2: #F6F9FF;
+    --bg-blue-3: #6583b9;
+    --margin-top: 100px;
+}
+
+/* == == == Global == == == */
+* {font-family: 'Open Sans', sans-serif;}
+button:focus {box-shadow: 0;}
+.my-mt {margin-top: var(--margin-top);}
+.bg-blue-2 {background-color: var(--bg-blue-2);}
+.card {transition: .5s;}
+.card:hover {background-color: var(--bg-blue-2);}
+
+.my-title {
+    color: var(--bg-blue-1);
+    font-weight: 700;
+}
+
+.icon-social,
+.icon-contato {
+    color: var(--bg-blue-1);
+    font-size: 2rem;
+    transition: .5s;
+}
+
+.icon-social:hover {color: var(--bg-blue-3);}
+
+/* == == == Header == == == */
+.logo-text {
+    color: var(--bg-blue-1);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.logo-icon {color: var(--bg-blue-1);}
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* == == == About == == == */
+.sobre {min-height: 75vh;}
+
+/* == == == Solutions == == == */
+.icon {
+    color: var(--bg-blue-1);
+    margin: 24px 0;
+    font-size: 60px;
+    transition: .5s;
+}
+
+.card:hover .icon {transform: scale(1.5);}
+
+/* == == == Contact == == == */
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+/* == == == Responsiveness == == == */
+@media(max-width:959px) {
+    #sobre{text-align: center;}
+}
