@@ -15,6 +15,9 @@
           rel="stylesheet"
           crossorigin="anonymous">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
   
@@ -50,24 +53,28 @@
                 <div class="col-6 pe-2 text-start">
                     <!-- First Name Input -->
                     <label for="input1" class="form-label">Nome</label>
-                    <input type="text" class="form-control input-custom border-0" id="input1" placeholder="Ex. Bruno">
+                    <input type="text" class="form-control input-custom border-0 text-secondary" id="input1" placeholder="Ex. Bruno">
                 </div>
 
                 <div class="col-6 ps-2 text-start">
                     <!-- Last Name Input -->
                     <label for="input2" class="form-label">Sobrenome</label>
-                    <input type="text" class="form-control input-custom border-0" id="input2" placeholder="Ex. Fernandes">
+                    <input type="text" class="form-control input-custom border-0 text-secondary" id="input2" placeholder="Ex. Fernandes">
                 </div>
             </div>
 
             <!-- Email Input -->
-            <label for="input2" class="form-label">Sobrenome</label>
-            <input type="text" class="form-control input-custom border-0 mb-4" id="input2" placeholder="Ex. Fernandes">
+            <label for="input3" class="form-label">Email</label>
+            <input type="email" class="form-control input-custom border-0 mb-4 text-secondary" id="input3" placeholder="Ex. bruno.fernandes@example.com">
 
             <!-- Password Input -->
-            <label for="input2" class="form-label">Sobrenome</label>
-            <input type="text" class="form-control input-custom border-0 mb-2" id="input2" placeholder="Ex. Fernandes">
-            <p class="lead fs-6 password-p">Deve ter no mínimo 8 caracteres.</p>
+            <label for="input4" class="form-label">Senha</label>
+            <div class="input-group mb-2">
+                <input type="password" class="form-control input-custom border-0 text-secondary" id="input4" placeholder="Insira sua senha">
+                <span class="input-group-text input-custom border-0" id="togglePassword" style="cursor: pointer;">
+                    <i class="bi bi-eye-slash text-secondary"></i> </span>
+            </div>
+            <p class="lead fs-6 password-p text-white-50">Deve ter no mínimo 8 caracteres.</p>
 
             <!-- Submit Button -->
             <a href="#" class="btn btn-custom w-100 mb-4">
@@ -82,9 +89,13 @@
     </div>
 
 <!-- == == == Scripts == == == -->
+    <!-- Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous">
     </script>
+
+    <!-- Javascript -->
+    <script src="./assets/javascript/scripts.js"></script>
 </body>
 </html>
